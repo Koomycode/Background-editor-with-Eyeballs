@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <title>Background editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./app.js"></script>
+</head>
+
+<body>
+    <main class="app" id="main">
+        <section class="app-head">
+            <div class="container flex">
+                <img src="./images/logo.png" alt="app logo" class="logo">
+
+                <h1 id="anchor" class="title">
+                    Solo
+                    <div class="box">
+                        <div class="eye"></div>
+                        <div class="eye"></div>
+                    </div>
+                </h1>
+
+                <ul class="navbar flex">
+                    <li class="list">Home</li>
+                    <li class="list">Create</li>
+                    <li class="list">About</li>
+                </ul>
+
+                <button id="burger-menu" class="burger-menu">
+                    <div class="line-top"></div>
+                    <div class="line-mid"></div>
+                    <div class="line-bottom"></div>
+                </button>
+
+                <ul id="mobile-navbar" class="mobile-navbar flex">
+                    <li class="list">Home</li>
+                    <li class="list">Create</li>
+                    <li class="list">About</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="app-main">
+            <div class="container flex">
+                <h2 class="sub-title">Expand your boundaries</h2>
+
+                <div class="sub-container flex">
+                    <h2 class="exp">
+                        Change the background
+                    </h2>
+
+                    <p>Pick a category</p>
+
+                    <!-- Create in JS 
+
+                        <div class="radio-container flex">
+                        <label for="sport">sport</label>
+                        <input 
+                            class="radio-input" 
+                            type="radio" 
+                            name="category" 
+                            id="sport">
+                        </div> 
+                    
+                        <button class="btn" id="generate">Generate</button> 
+                    -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
